@@ -1,11 +1,12 @@
 import React from 'react';
-import Note from '../../component/Note'
+import Note from '../../component/Note';
+import { Can } from "./style";
 
 const Canvas: React.FC = () => {
     return (
-        <div>
+        <Can>
             <Note />
-        </div>
+        </Can>
     )
 }
 

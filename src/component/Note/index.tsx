@@ -1,14 +1,14 @@
 import React from 'react';
+import { Contain, Input, Button } from '../Note/style'
 
 
 const Note: React.FC = () => {
     return (
-        <div>
-             <textarea>
-
-             </textarea>
+        <Contain>
+             <Input></Input>
+             <Button>Add Note</Button>
             
-        </div>
+        </Contain>
     )
 }
 
