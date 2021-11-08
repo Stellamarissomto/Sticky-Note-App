@@ -6,10 +6,9 @@ import px2vw from "../../utili/px2vw";
 export const Contain = styled.div`
 display: flex;
 flex-direction: column;
-width: ${px2vw(400, 1440)};
+width: ${px2vw(350, 1440)};
 padding-top: ${px2vw(64, 1440)};
 padding-left: ${px2vw(64, 1440)};
-
 
 `
 
