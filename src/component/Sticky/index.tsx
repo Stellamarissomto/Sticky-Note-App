@@ -1,12 +1,11 @@
 import React from 'react';
-import { Note } from './style'
+import { Note, Text } from './style'
 
 const Sticky : React.FC = () => {
     return (
         <Note>
-            <h1>HHHH</h1>
+            <Text>HHHH</Text>
         </Note>
     )
 }
-
 export default Sticky

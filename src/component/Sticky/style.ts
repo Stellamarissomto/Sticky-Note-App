@@ -5,9 +5,14 @@ import { images } from '../../image'
 
 export const Note = styled.div`
 background: url(${images.note});
-background-size: 100% 100%, cover;
-width: 100%;
-height: ${px2vw(30, 1440)};
+background-size: ${px2vw(300, 1440)} ${px2vw(300, 1440)}, cover;
+width:${px2vw(300, 1440)};
+height: ${px2vw(300, 1440)};
 background-repeat: no-repeat;
+
+`
+
+export const Text = styled.p`
+position: absolute;
 
 `
